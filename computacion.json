@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "codigo": 1,
+    "nombre": "Desktop Gaming",
+    "precio": 999.99,
+    "categoria": "Desktop"
+  },
+  {
+    "id": 2,
+    "codigo": 2,
+    "nombre": "Laptop Ultrabook",
+    "precio": 1299.99,
+    "categoria": "PortÃ¡tiles"
+  },
+  {
+    "id": 3,
+    "codigo": 3,
+    "nombre": "Teclado MecÃ¡nico",
+    "precio": 89.99,
+    "categoria": "Accesorios"
+  },
+  {
+    "id": 4,
+    "codigo": 4,
+    "nombre": "Impresora Multifuncional",
+    "precio": 199.99,
+    "categoria": "Impresoras"
+  },
+  {
+    "id": 5,
+    "codigo": 5,
+    "nombre": "Memoria RAM",
+    "precio": 79.99,
+    "categoria": "Partes de computadoras"
+  },
+  {
+    "id": 6,
+    "codigo": 6,
+    "nombre": "Monitor Curvo",
+    "precio": 299.99,
+    "categoria": "Monitores"
+  },
+  {
+    "id": 7,
+    "codigo": 7,
+    "nombre": "Mouse InalÃ¡mbrico",
+    "precio": 29.99,
+    "categoria": "Accesorios"
+  },
+  {
+    "id": 8,
+    "codigo": 8,
+    "nombre": "Disco Duro Externo",
+    "precio": 99.99,
+    "categoria": "Accesorios"
+  },
+  {
+    "id": 9,
+    "codigo": 9,
+    "nombre": "Tarjeta de Video",
+    "precio": 249.99,
+    "categoria": "Partes de computadoras"
+  },
+  {
+    "id": 10,
+    "codigo": 10,
+    "nombre": "Tableta GrÃ¡fica",
+    "precio": 199.99,
+    "categoria": "Accesorios"
+  },
+  {
+    "id": 11,
+    "codigo": 11,
+    "nombre": "All-in-One PC",
+    "precio": 899.99,
+    "categoria": "Desktop"
+  },
+  {
+    "id": 12,
+    "codigo": 12,
+    "nombre": "Laptop Convertible",
+    "precio": 799.99,
+    "categoria": "PortÃ¡tiles"
+  },
+  {
+    "id": 13,
+    "codigo": 13,
+    "nombre": "Mouse ErgonÃ³mico",
+    "precio": 39.99,
+    "categoria": "Accesorios"
+  },
+  {
+    "id": 14,
+    "codigo": 14,
+    "nombre": "Impresora de Etiquetas",
+    "precio": 149.99,
+    "categoria": "Impresoras"
+  },
+  {
+    "id": 15,
+    "codigo": 15,
+    "nombre": "Disco SSD",
+    "precio": 129.99,
+    "categoria": "Partes de computadoras"
+  },
+  {
+    "id": 16,
+    "codigo": 16,
+    "nombre": "Monitor 4K",
+    "precio": 499.99,
+    "categoria": "Monitores"
+  },
+  {
+    "id": 17,
+    "codigo": 17,
+    "nombre": "Webcam Full HD",
+    "precio": 69.99,
+    "categoria": "Accesorios"
+  },
+  {
+    "id": 18,
+    "codigo": 18,
+    "nombre": "Router Gigabit",
+    "precio": 79.99,
+    "categoria": "Accesorios"
+  },
+  {
+    "id": 19,
+    "codigo": 19,
+    "nombre": "Tarjeta de Red Ethernet",
+    "precio": 19.99,
+    "categoria": "Partes de computadoras"
+  },
+  {
+    "id": 20,
+    "codigo": 20,
+    "nombre": "Teclado Retroiluminado",
+    "precio": 59.99,
+    "categoria": "Accesorios"
+  },
+  {
+    "id": 21,
+    "codigo": 21,
+    "nombre": "Desktop Todo en Uno",
+    "precio": 699.99,
+    "categoria": "Desktop"
+  },
+  {
+    "id": 22,
+    "codigo": 22,
+    "nombre": "Laptop Gamer",
+    "precio": 1499.99,
+    "categoria": "PortÃ¡tiles"
+  },
+  {
+    "id": 23,
+    "codigo": 23,
+    "nombre": "Altavoces 2.1",
+    "precio": 89.99,
+    "categoria": "Accesorios"
+  },
+  {
+    "id": 24,
+    "codigo": 24,
+    "nombre": "Impresora LÃ¡ser",
+    "precio": 299.99,
+    "categoria": "Impresoras"
+  },
+  {
+    "id": 25,
+    "codigo": 25,
+    "nombre": "Fuente de AlimentaciÃ³n",
+    "precio": 129.99,
+    "categoria": "Partes de computadoras"
+  },
+  {
+    "id": 26,
+    "codigo": 26,
+    "nombre": "Monitor Ultrawide",
+    "precio": 599.99,
+    "categoria": "Monitores"
+  },
+  {
+    "id": 27,
+    "codigo": 27,
+    "nombre": "CÃ¡mara Web",
+    "precio": 49.99,
+    "categoria": "Accesorios"
+  },
+  {
+    "id": 28,
+    "codigo": 28,
+    "nombre": "Router Mesh",
+    "precio": 129.99,
+    "categoria": "Accesorios"
+  },
+  {
+    "id": 29,
+    "codigo": 29,
+    "nombre": "Tarjeta de Sonido",
+    "precio": 49.99,
+    "categoria": "Partes de computadoras"
+  },
+  {
+    "id": 30,
+    "codigo": 30,
+    "nombre": "Teclado InalÃ¡mbrico",
+    "precio": 39.99,
+    "categoria": "Accesorios"
+  }
+]

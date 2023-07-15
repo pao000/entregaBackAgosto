@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administración</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/css/uikit.min.css" />
+
+    <!--Archivo principal-->
+    <script src="./index.js" defer></script>
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/js/uikit.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/js/uikit-icons.min.js" defer></script>
+
+
+</head>
+
+<body class="uk-background-muted uk-padding">
+    <article>
+        <div class="uk-margin uk-container">
+            <form class="uk-search uk-search-default">
+                <span uk-search-icon></span>
+                <input class="uk-search-input" type="search" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+    </article>
+
+    <article>
+        <section class="uk-container uk-margin">
+            <a class="uk-button uk-button-primary" href="#modal-sections" uk-toggle>Agregar</a>
+        </section>
+        <section class="uk-container">
+            <table class="uk-table uk-table-striped">
+                <caption class="uk-background-primary uk-text-bolder uk-text-uppercase">Productos</caption>
+                <thead class="uk-background-default">
+                    <tr>
+                        <th>Código</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Categoría</th>
+                        <th>Eliminar</th>
+                        <th>Editar</th>
+
+                    </tr>
+                </thead>
+                <tbody id="lista">
+                </tbody>
+            </table>
+        </section>
+    </article>
+
+</body>
+
+<!--Modal para agregar producto-->
+<div id="modal-sections" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Agregar producto</h2>
+        </div>
+        <div class="uk-modal-body">
+            <form class="uk-container uk-margin">
+                <div class="uk-margin">
+                    <label>Nombre</label>
+                    <input class="uk-input" type="text" placeholder="Input" aria-label="Input">
+                </div>
+                <div class="uk-margin">
+                    <label>Precio</label>
+                    <input class="uk-input" type="text" placeholder="Input" aria-label="Input">
+                </div>
+
+                <div class="uk-margin">
+                    <label>Categoría</label>
+                    <select class="uk-select" aria-label="Select">
+                        <option>Option 01</option>
+                        <option>Option 02</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class="uk-modal-footer uk-text-right">
+            <button class="uk-button uk-button-default uk-modal-close" type="button">Cancelar</button>
+            <button class="uk-button uk-button-primary" type="button">Guardar</button>
+        </div>
+    </div>
+</div>
+
+</html>
