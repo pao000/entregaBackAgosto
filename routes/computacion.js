@@ -65,6 +65,12 @@ router.get('/nombre/:nombre', async (req, res) => {
             .toArray();
 
         await disconnectFromMongoDB();
+
+        if (!productos || productos.length === 0) {
+            res.status(404).send('Producto no encontrado');
+            return;
+        }
+
         res.send(productos);
     } catch (error) {
         console.error('Error en la ruta /nombre/:nombre:', error);
@@ -113,7 +119,7 @@ router.post('/', async (req, res) => {
     collection.insertOne(nuevoProducto)
         .then(() => {
             console.log('Se ha creado una nuevo producto');
-            res.status(200).send(nuevaP);
+            res.status(200).send(nuevoProducto);
         })
         .catch(error => {
             console.error(error);
@@ -139,7 +145,7 @@ router.put('/id/:id', async (req, res) => {
     const collection = client.db(databaseName).collection('computacion');
     collection.updateOne({ id: parseInt(id) }, { $set: nuevosDatos })
         .then(() => {
-            console.log('Producto modificada:');
+            console.log('Producto modificado:');
             res.status(200).send(nuevosDatos);
         })
         .catch((error) => {
